@@ -25,7 +25,10 @@ public class Method_Sodas {
 		
 		setflavoredSodaOrder("Cherry", "PepCi");
 		
-		System.out.println();
+		//For returns we have to add a sysout for it to show on the console properly 
+		System.out.println(sodaOrderReturn("Hill Dew"));
+		
+		System.out.println(setSodaOrderReturn("Lemon Lime Soda"));
 		
 	}
 	//This is like someone telling you what the soda they would like to have 
