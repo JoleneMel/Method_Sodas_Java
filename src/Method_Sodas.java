@@ -37,7 +37,25 @@ public class Method_Sodas {
 		System.out.println("I would like a " + flavor + " flavored " + soda);
 	}
 	
-	//
+	//A void returns nothing, it stops within the console, so it doesnt have any data to pass on to anything else 
+	//so below are some examples of methods that return data and the benefits of that 
+	public static String sodaOrderReturn(String soda) {
+		return "I would like a " + soda;
+	}
+	
+	
+	//Example of it being set too 
+	public static String setSodaOrderReturn(String soda) {
+		soda = "Orange Soda";
+		return "I would like a " + soda;
+	}
+	
+	
+	//With returns we can pass on the data to different methods to add to them. 
+	public static String niceCustomer() {
+		return " please and thank you";
+	}
+	
 	
 	
 	
