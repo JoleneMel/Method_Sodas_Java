@@ -30,6 +30,8 @@ public class Method_Sodas {
 		
 		System.out.println(setSodaOrderReturn("Lemon Lime Soda"));
 		
+		System.out.println(flavoredSodaOrderReturn("Mango", "PepCi"));
+		
 	}
 	//This is like someone telling you what the soda they would like to have 
 	public static void sodaOrder(String soda) {
