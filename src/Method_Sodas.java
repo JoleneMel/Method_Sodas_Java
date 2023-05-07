@@ -57,6 +57,9 @@ public class Method_Sodas {
 	}
 	
 	
-	
+	//So with returns we will call the previously made methods to make it easier for us :) 
+	public static String flavoredSodaOrderReturn(String flavor, String soda) {
+		return sodaOrderReturn(soda) + ", " + flavor + " flavored " + niceCustomer();
+	}
 	
 }
