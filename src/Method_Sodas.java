@@ -22,8 +22,22 @@ public class Method_Sodas {
 		soda = "Cola";
 		System.out.println("I would like a " + soda);
 	}
-	//This sets the output to only print out one outcome, a method is supposed to be a tool or like a multipurpose solution 
+	//This sets the output to only print out one outcome, a method is supposed to be a tool or like a multi-purpose solution 
 	
+	
+	//Multiple parameters? We are gonna go to a fancy soda place so they have flavors~ 
+	public static void flavoredSodaOrder(String flavor, String soda) {
+		System.out.println("I would like a " + flavor + " flavored " + soda);
+	}
+	
+	//example where this is also set 
+	public static void setflavoredSodaOrder(String flavor, String soda) {
+		soda = "Cola";
+		flavor = "vanilla";
+		System.out.println("I would like a " + flavor + " flavored " + soda);
+	}
+	
+	//
 	
 	
 	
