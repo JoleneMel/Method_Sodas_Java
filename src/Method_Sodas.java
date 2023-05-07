@@ -16,6 +16,8 @@ public class Method_Sodas {
 		//people may argue about what is the best soda flavor. 
 		
 		sodaOrder("Orange Soda");
+		//no matter what you supply you will always get cola
+		System.out.println("No, only Cola");
 		
 		setSodaOrder("Root Beer");
 		
@@ -25,8 +27,10 @@ public class Method_Sodas {
 		
 		setflavoredSodaOrder("Cherry", "PepCi");
 		
+		System.out.println("=====================Return=====================");
+		
 		//For returns we have to add a sysout for it to show on the console properly 
-		System.out.println(sodaOrderReturn("Hill Dew"));
+		System.out.println(sodaOrderReturn("Hilly Dew"));
 		
 		System.out.println(setSodaOrderReturn("Lemon Lime Soda"));
 		
@@ -42,7 +46,7 @@ public class Method_Sodas {
 	//Many programmers start with accidentally setting their parameter 
 	public static void setSodaOrder(String soda) {
 		soda = "Cola";
-		System.out.println("I would like a " + soda);
+		System.out.println("Enjoy your " + soda);
 	}
 	//This sets the output to only print out one outcome, a method is supposed to be a tool or like a multi-purpose solution 
 	
@@ -56,7 +60,7 @@ public class Method_Sodas {
 	public static void setflavoredSodaOrder(String flavor, String soda) {
 		soda = "Cola";
 		flavor = "vanilla";
-		System.out.println("I would like a " + flavor + " flavored " + soda);
+		System.out.println("Enjoy your " + flavor + " flavored " + soda);
 	}
 	
 	//A void returns nothing, it stops within the console, so it doesnt have any data to pass on to anything else 
@@ -81,7 +85,8 @@ public class Method_Sodas {
 	
 	//So with returns we will call the previously made methods to make it easier for us :) 
 	public static String flavoredSodaOrderReturn(String flavor, String soda) {
-		return sodaOrderReturn(soda) + ", " + flavor + " flavored " + niceCustomer();
+		return sodaOrderReturn(soda) + " " +  flavor + " flavored," + niceCustomer();
 	}
+	
 	
 }
