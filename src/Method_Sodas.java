@@ -10,6 +10,17 @@ public class Method_Sodas {
 		//Soda is a vague name for what we want in it, in Java you do have to specify what data type you will be using 
 		//in this instance we will use a String 
 		
+		//Cup is like the function because it is taking in the soda aka parameter inside and serving it. 
+		
+		//soda is the parameter, but something like "Cola", "Root beer", etc are arguments, you can remember this because 
+		//people may argue about what is the best soda flavor. 
+		
+		sodaOrder("Orange Soda");
+		
+		setSodaOrder("Root Beer");
+		
+		setSodaOrder("Orange Soda");
+		
 	}
 	//This is like someone telling you what the soda they would like to have 
 	public static void sodaOrder(String soda) {
