@@ -21,6 +21,12 @@ public class Method_Sodas {
 		
 		setSodaOrder("Orange Soda");
 		
+		flavoredSodaOrder("starwberry cream", "Dr. P");
+		
+		setflavoredSodaOrder("Cherry", "PepCi");
+		
+		System.out.println();
+		
 	}
 	//This is like someone telling you what the soda they would like to have 
 	public static void sodaOrder(String soda) {
